@@ -1,0 +1,46 @@
+.block{
+    background-color: #ffccff;
+    border: 20px solid purple;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    
+}
+
+.static{
+    position: static;
+    border: 3px solid #99ffff;
+    top: 400px;
+    left: 500px;
+}
+
+.relative{
+    position: relative;
+    border: 3px solid #99ffff;
+    top: 400px;
+    left: 500px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.fixed{
+    position: fixed;
+    border: 3px solid #99ffff;
+    top: 150px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.absolute{
+    position: absolute;
+    border: 3px solid #99ffff;
+    top: 80px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    
+}
