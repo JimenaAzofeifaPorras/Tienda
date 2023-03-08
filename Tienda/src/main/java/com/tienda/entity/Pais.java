@@ -7,10 +7,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import java.io.Serializable;
 
-/**
- *
- * @author jimen
- */
 @Entity
 @Table(name = "paises")
 public class Pais implements Serializable{
