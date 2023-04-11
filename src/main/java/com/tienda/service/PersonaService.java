@@ -21,7 +21,7 @@ public class PersonaService implements IPersonaService{
     public Persona getPersonaById(long id) {
         return personaRepository.findById(id).orElse(null);
     }
-
+    
     @Override
     public void savePersona(Persona persona) {
         personaRepository.save(persona);
@@ -30,6 +30,11 @@ public class PersonaService implements IPersonaService{
     @Override
     public void delete(long id) {
         personaRepository.deleteById(id);
+    }
+
+    @Override
+    public Persona findByNombre(String username) {
+        return personaRepository.findByNombre(username);
     }
     
 }
